@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+body{
+position:fixed;
+background-image: url(Fondo.jpg);
+background-size:1600px 1000px;
+    
+} 
+
+#container1{
+    border:2px solid black;
+    position:absolute;
+    left:534px;
+    top:-9px;
+    width:640px;
+    height: 240px;
+    background-image:url(universo.jpg);
+    background-size: 710px 240px; 
+    background-position: -70px;
+    background-repeat: no-repeat;
+     z-index: 4;
+    opacity:1;  
+}
+#container2{
+
+position:absolute;
+width:300px;
+height:127px;
+    left:230px;
+top:90px;
+
+}
+
+    
+#video{
+    position:absolute;
+     left:534px;
+    top:-9px;
+    width:640px;
+    height: 240px;
+    z-index: 0;    
+}
